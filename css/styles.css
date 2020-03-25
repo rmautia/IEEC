@@ -1,0 +1,110 @@
+.topnav {
+  background-color:green;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#clogo {
+    position: absolute;
+    left: 1px;
+    bottom: -78px;
+}
+#topcontainer {
+    background: url("../images/services_icons/wind.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+  }
+  #mouseclick {
+    position: absolute;
+    right: 8px;
+    top: 12px
+    
+  }
+  #aboutus {
+    background: url("../images/backgrounds/c2.jpg");
+    padding:120px
+    
+  }
+  #portfolio div img {
+    width: 100%;
+    display: block;
+  }
+  #portfolio div {
+    padding: 10px;
+  }
+  #contactus {
+    background: url("../images/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 45px;
+    margin: 0%;
+    border: 100%;
+
+  }
+#services {
+  background-image: url("../images/backgrounds/s_image.jpg");
+  background-size: cover;
+  padding: 80px;
+  font-size: 12px;
+  height: 10%
+}
+.form-control {
+  background: transparent;
+}
+.form-control {
+  color: white;
+  opacity: 1;
+  padding: 12px;
+}
+#ddd {
+  bottom: 25px;
+  margin: 30px;
+}
+#dd {
+  bottom: 10px;
+  margin: 10%;
+}
+.btn {
+  border: 2px solid red;
+  padding: 6px;
+  color: white;
+  background: green;
+}
+
+#social {
+  padding: 25px;
+  bottom: 15px;
+  top: 15px;
+}
+ #para {
+  display: none;
+}
+
+.display {
+  display:none;
+  position: absolute;
+  top: 0;width: 100%;height: 100%;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+}
+.display p{
+  border: 1px solid #fff;
+  height: 80%;width: 80%;
+  display: flex; justify-content: center;
+  align-items: center; color: #fff;
+  font-size: large; text-transform: uppercase;
+  background: rgba(0,0,0,.3);
+}
